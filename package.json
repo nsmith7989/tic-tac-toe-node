@@ -1,0 +1,35 @@
+{
+  "name": "tic-tac-toe-node",
+  "version": "1.0.0",
+  "description": "Port of https://codequizzes.wordpress.com/2013/10/25/creating-a-tic-tac-toe-game-with-ruby/ in node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:nsmith7989/tic-tac-toe-node.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nsmith7989/tic-tac-toe-node/issues"
+  },
+  "homepage": "https://github.com/nsmith7989/tic-tac-toe-node",
+  "dependencies": {
+    "babel": "^4.7.16",
+    "readline-sync": "^0.8.0"
+  },
+  "devDependencies": {
+    "babel-jest": "*",
+    "jest-cli": "*"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "scriptPreprocessor": "<rootDir>/node_modules/babel-jest",
+    "testFileExtensions": ["es6", "js"],
+    "moduleFileExtensions": ["js", "json", "es6"]
+  }
+}
